@@ -11435,3 +11435,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   transform: translateY(0%); }
   .headroom--pinned > .navbar-main {
     background-color: #092771 !important; }
+
+.blur-card {
+  filter: blur(8px); }

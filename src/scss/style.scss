@@ -139,3 +139,7 @@
     background-color: $violet !important;
   }
 }
+
+.blur-card {
+  filter: blur(8px);
+}

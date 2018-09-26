@@ -39,7 +39,7 @@ export default [
   },
   {
     isBlurred: true,
-    title: 'Competitive Programming and Interview Preparation',
+    title: 'Cracking Coding Interviews',
     subTitle: 'Core Level 3',
     tags: [
       'C Language',

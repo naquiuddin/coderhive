@@ -1,8 +1,8 @@
-import React from 'react'
-import { Router } from 'react-static'
-import { hot } from 'react-hot-loader'
-import Routes from 'react-static-routes'
-import Nav from './components/Navigation'
+import React from 'react';
+import { Router } from 'react-static';
+import { hot } from 'react-hot-loader';
+import Routes from 'react-static-routes';
+import Nav from './components/Navigation';
 
 const App = () => (
   <Router>
@@ -25,6 +25,6 @@ const App = () => (
       </div>
     </div>
   </Router>
-)
+);
 
-export default hot(module)(App)
+export default hot(module)(App);

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export default () => (
   <main>
@@ -37,37 +37,47 @@ export default () => (
                 <div className="row">
                   <div className="col-lg-4">
                     <h5 className="text-danger">
-                      <span className="icon icon-shape icon-shape-danger bg-white">1</span> Master
-                      Coding Skills
+                      <span className="icon icon-shape icon-shape-danger bg-white">
+                        1
+                      </span>{' '}
+                      Master Coding Skills
                     </h5>
                     <p className="text-white">
-                      Doesn’t matter whether you are new to coding or you already know the basics.
-                      The system is divided into 3 levels. Level 1 is for beginners. Level 2 is for
-                      students who know the basics and want to advance their coding skills. Level 3
-                      prepares you for tough technical interviews.
+                      Doesn’t matter whether you are new to coding or you
+                      already know the basics. The system is divided into 3
+                      levels. Level 1 is for beginners. Level 2 is for students
+                      who know the basics and want to advance their coding
+                      skills. Level 3 prepares you for tough technical
+                      interviews.
                     </p>
                   </div>
                   <div className="col-lg-4">
                     <h5 className="text-danger">
-                      <span className="icon icon-shape icon-shape-danger bg-white">2</span> Crack
-                      coding interviews
+                      <span className="icon icon-shape icon-shape-danger bg-white">
+                        2
+                      </span>{' '}
+                      Crack coding interviews
                     </h5>
                     <p className="text-white">
-                      The courses help you crack the tough technical rounds of product based
-                      companies like Amazon, Microsoft, PayTM, Flipkart, Google etc. You will walk
-                      through and practice various problem solving methods to solve tough coding
+                      The courses help you crack the tough technical rounds of
+                      product based companies like Amazon, Microsoft, PayTM,
+                      Flipkart, Google etc. You will walk through and practice
+                      various problem solving methods to solve tough coding
                       problems.
                     </p>
                   </div>
                   <div className="col-lg-4">
                     <h5 className="text-danger">
-                      <span className="icon icon-shape icon-shape-danger bg-white">3</span> Get
-                      Better Job Offers
+                      <span className="icon icon-shape icon-shape-danger bg-white">
+                        3
+                      </span>{' '}
+                      Get Better Job Offers
                     </h5>
                     <p className="text-white">
-                      Coding is a powerful skill. It opens lot of opportunities in fields like Data
-                      Science, Machine Learning, Artificial intelligence, Web Development, Mobile
-                      App Development etc. We maintain high standards for our students and assist
+                      Coding is a powerful skill. It opens lot of opportunities
+                      in fields like Data Science, Machine Learning, Artificial
+                      intelligence, Web Development, Mobile App Development etc.
+                      We maintain high standards for our students and assist
                       them in getting better offers.
                     </p>
                   </div>
@@ -82,11 +92,13 @@ export default () => (
                     </a> */}
                     <a
                       href="https://coderhive.typeform.com/to/HswM5Q"
-                      className="btn btn-lg btn-warning btn-icon mb-3 mb-sm-0"
+                      className="btn btn-lg btn-danger btn-icon mb-3 mb-sm-0"
                       role="noopener noreferrer"
                       target="_blank"
                     >
-                      <span className="btn-inner--text text-white">Apply Now</span>
+                      <span className="btn-inner--text text-white">
+                        Apply Now
+                      </span>
                     </a>
                   </div>
                 </div>
@@ -108,78 +120,5 @@ export default () => (
         </div>
       </section>
     </div>
-    {/* <section className="section section-lg pt-lg-0 mt--200">
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-lg-12">
-            <div className="row row-grid">
-              <div className="col-lg-4">
-                <div className="card card-lift--hover shadow border-0">
-                  <div className="card-body py-5">
-                    <div className="icon icon-shape icon-shape-primary rounded-circle mb-4 d-block mx-auto">
-                      <span>
-                        <strong>1</strong>
-                      </span>
-                    </div>
-                    <h5 className="text-primary text-uppercase text-center">
-                      Master Coding Skills
-                    </h5>
-                    <p className="description mt-3">
-                      Doesn’t matter whether you are new to coding or you already know the basics.
-                      The system is divided into 3 levels. Level 1 is targeted towards beginners.
-                      Level 2 is for students who know the basics and want to advance their coding
-                      skills. Level 3 is the course that prepares you for tough technical
-                      interviews.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="card card-lift--hover shadow border-0">
-                  <div className="card-body py-5">
-                    <div className="icon icon-shape icon-shape-success rounded-circle mb-4 d-block mx-auto">
-                      <span>
-                        <strong>2</strong>
-                      </span>
-                    </div>
-                    <h5 className="text-success text-uppercase text-center">
-                      Crack technical interviews
-                    </h5>
-                    <p className="description mt-3">
-                      The courses help you crack the tough technical rounds of product based
-                      companies like Amazon, Microsoft, PayTM, Flipkart, Google etc. You will walk
-                      through and practice various problem solving methods to solve tough coding
-                      problems.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4">
-                <div className="card card-lift--hover shadow border-0">
-                  <div className="card-body py-5">
-                    <div className="icon icon-shape icon-shape-warning rounded-circle mb-4 d-block mx-auto">
-                      <span>
-                        <strong>3</strong>
-                      </span>
-                    </div>
-                    <h5 className="text-warning text-uppercase text-center">
-                      Get better job offers
-                    </h5>
-                    <p className="description mt-3">
-                      Coding is a powerful skill and opens 100s of opportunities in various fields
-                      like Data Science, Machine Learning, Artificial intelligence, Full Stack Web
-                      Development, Mobile App Development etc. No doubt our students get job.
-                      However we maintain high standards for students who finish courses and will
-                      help them take better offers.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> */}
-    <h1 style={{ textAlign: 'center' }}>Welcome to</h1>
   </main>
-)
+);

@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'react-static'
-import logoOriginal from '../../images/original-wide.png'
-import logoWhite from '../../images/white-logo.png'
-import logoOrange from '../../images/orange-logo.png'
+import React from 'react';
+import { Link } from 'react-static';
+import logoOriginal from '../../images/original-wide.png';
+import logoWhite from '../../images/white-logo.png';
+import logoOrange from '../../images/orange-logo.png';
 import Headroom from 'react-headroom';
 
 export default () => (
@@ -60,7 +60,13 @@ export default () => (
             </div>
             <ul className="navbar-nav navbar-nav-hover align-items-lg-center">
               <li className="nav-item dropdown">
-                <a href="#" className="nav-link" data-toggle="dropdown" href="#" role="button">
+                <a
+                  href="#"
+                  className="nav-link"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                >
                   <i className="ni ni-ui-04 d-lg-none" />
                   <span className="nav-link-inner--text">Courses</span>
                 </a>
@@ -75,7 +81,8 @@ export default () => (
                           CS and Programming Foundation
                         </h6>
                         <p className="description d-none d-md-inline-block mb-0">
-                          Learn how to use Argon compiling Scss, change brand colors and more.
+                          Learn how to use Argon compiling Scss, change brand
+                          colors and more.
                         </p>
                       </div>
                     </a>
@@ -91,8 +98,8 @@ export default () => (
                           Advanced Algorithms & Problem Solving
                         </h6>
                         <p className="description d-none d-md-inline-block mb-0">
-                          Learn more about colors, typography, icons and the grid system we used for
-                          Argon.
+                          Learn more about colors, typography, icons and the
+                          grid system we used for Argon.
                         </p>
                       </div>
                     </a>
@@ -104,10 +111,12 @@ export default () => (
                         L3
                       </div>
                       <div className="media-body ml-3">
-                        <h5 className="heading text-warning mb-md-1">Cracking Coding Interviews</h5>
+                        <h5 className="heading text-warning mb-md-1">
+                          Cracking Coding Interviews
+                        </h5>
                         <p className="description d-none d-md-inline-block mb-0">
-                          Browse our 50 beautiful handcrafted components offered in the Free
-                          version.
+                          Browse our 50 beautiful handcrafted components offered
+                          in the Free version.
                         </p>
                       </div>
                     </a>
@@ -115,17 +124,33 @@ export default () => (
                 </div>
               </li>
               <li className="nav-item dropdown">
-                <a href="#" className="nav-link" data-toggle="dropdown" href="#" role="button">
+                <a
+                  href="#"
+                  className="nav-link"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                >
                   <span className="nav-link-inner--text">FAQs</span>
                 </a>
               </li>
               <li className="nav-item dropdown">
-                <Link to="/about" className="nav-link" data-toggle="dropdown" role="button">
+                <Link
+                  to="/about"
+                  className="nav-link"
+                  data-toggle="dropdown"
+                  role="button"
+                >
                   <span className="nav-link-inner--text">About</span>
                 </Link>
               </li>
               <li className="nav-item dropdown">
-                <a href="#" className="nav-link" data-toggle="dropdown" role="button">
+                <a
+                  href="#"
+                  className="nav-link"
+                  data-toggle="dropdown"
+                  role="button"
+                >
                   <i className="ni ni-collection d-lg-none" />
                   <span className="nav-link-inner--text">Contact</span>
                 </a>
@@ -142,7 +167,9 @@ export default () => (
                   title="Like us on Facebook"
                 >
                   <i className="fa fa-facebook-square" />
-                  <span className="nav-link-inner--text d-lg-none">Facebook</span>
+                  <span className="nav-link-inner--text d-lg-none">
+                    Facebook
+                  </span>
                 </a>
               </li>
               <li className="nav-item">
@@ -155,7 +182,9 @@ export default () => (
                   title="Follow us on Instagram"
                 >
                   <i className="fa fa-instagram" />
-                  <span className="nav-link-inner--text d-lg-none">Instagram</span>
+                  <span className="nav-link-inner--text d-lg-none">
+                    Instagram
+                  </span>
                 </a>
               </li>
               <li className="nav-item">
@@ -168,7 +197,9 @@ export default () => (
                   title="Follow us on Twitter"
                 >
                   <i className="fa fa-twitter-square" />
-                  <span className="nav-link-inner--text d-lg-none">Twitter</span>
+                  <span className="nav-link-inner--text d-lg-none">
+                    Twitter
+                  </span>
                 </a>
               </li>
               <li className="nav-item">
@@ -200,4 +231,4 @@ export default () => (
       </nav>
     </Headroom>
   </header>
-)
+);

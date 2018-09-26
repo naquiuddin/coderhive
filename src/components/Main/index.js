@@ -106,7 +106,7 @@ export default () => (
             </div>
           </div>
         </div>
-        <div className="separator separator-bottom separator-skew zindex-100">
+        <div className="separator separator-bottom separator-skew">
           <svg
             x="0"
             y="0"

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "react-static start",
     "stage": "react-static build --staging",
-    "build": "react-static build",
+    "build": "npm run build-css && react-static build",
     "serve": "serve dist -p 3000",
     "start": "react-static build && serve ./dist -p 3000",
     "build-css": "node-sass-chokidar --include-path ./node_modules/ ./src/scss -o ./public/css",

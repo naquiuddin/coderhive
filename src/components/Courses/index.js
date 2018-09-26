@@ -4,11 +4,11 @@ import ShortId from 'shortid';
 import courses from './data';
 
 export default () => (
-  <section className="section section-lg pt-lg-0 mt--200">
+  <section className="section section-lg pt-lg-0">
     <div className="container">
       <div className="row justify-content-center">
         <div className="col-lg-12 pb-5 my-5">
-          <h2 className="text-white text-center">Courses Offered</h2>
+          <h2 className="text-dark text-center mb-5">Courses Offered</h2>
           <div className="row row-grid">
             {courses.map(
               ({

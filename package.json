@@ -7,8 +7,8 @@
     "dev": "react-static start",
     "stage": "react-static build --staging",
     "build": "npm run build-css && react-static build",
-    "serve": "serve dist -p 3000",
-    "start": "react-static build && serve ./dist -p 3000",
+    "serve": "serve dist -p 3002",
+    "start": "react-static build && serve ./dist -p 3002",
     "build-css": "node-sass-chokidar --include-path ./node_modules/ ./src/scss -o ./public/css",
     "watch-css": "npm run build-css && node-sass-chokidar --include-path ./node_modules/ ./src/scss -o ./public/css --watch --recursive"
   },

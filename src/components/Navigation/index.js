@@ -147,6 +147,17 @@ export default () => (
               </li>
               <li className="nav-item dropdown">
                 <a
+                  href="https://blog.coderhive.net"
+                  className="nav-link"
+                  data-toggle="dropdown"
+                  role="button"
+                >
+                  <i className="ni ni-collection d-lg-none" />
+                  <span className="nav-link-inner--text">Blog</span>
+                </a>
+              </li>
+              <li className="nav-item dropdown">
+                <a
                   href="#"
                   className="nav-link"
                   data-toggle="dropdown"

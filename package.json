@@ -32,8 +32,8 @@
     "react-moment": "^0.7.0",
     "react-router": "^4.2.0",
     "react-static": "^5.9.8",
-    "shortid": "^2.2.13",
-    "serve": "^6.1.0"
+    "serve": "^10.0.2",
+    "shortid": "^2.2.13"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x"

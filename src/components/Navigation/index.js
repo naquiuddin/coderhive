@@ -161,7 +161,7 @@ export default () => (
               <li className="nav-item">
                 <a
                   className="nav-link nav-link-icon"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://www.facebook.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-toggle="tooltip"
@@ -176,7 +176,7 @@ export default () => (
               <li className="nav-item">
                 <a
                   className="nav-link nav-link-icon"
-                  href="https://www.instagram.com/creativetimofficial"
+                  href="https://www.instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-toggle="tooltip"
@@ -191,7 +191,7 @@ export default () => (
               <li className="nav-item">
                 <a
                   className="nav-link nav-link-icon"
-                  href="https://twitter.com/creativetim"
+                  href="https://twitter.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-toggle="tooltip"
@@ -206,7 +206,7 @@ export default () => (
               <li className="nav-item">
                 <a
                   className="nav-link nav-link-icon"
-                  href="https://github.com/creativetimofficial/argon-design-system"
+                  href="https://github.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   data-toggle="tooltip"
@@ -218,7 +218,7 @@ export default () => (
               </li>
               <li className="nav-item d-none d-lg-block ml-lg-4">
                 <a
-                  href="https://www.creative-tim.com/product/argon-design-system"
+                  href="https://coderhive.typeform.com/to/HswM5Q"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-danger btn-icon"
